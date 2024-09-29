@@ -1,0 +1,225 @@
+
+
+<!DOCTYPE html>
+<html lang="em">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFICIAL PAGE | James</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="images/icon.png">
+    <script src="index.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></l>
+                <li><a href="#about">About</a></l>
+                <li><a href="#experiences">Experience</a></l>
+                <li><a href="#projects">Projects   </a></l>
+                <li><a href="#contact">Contact</a></l>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>   
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Basic Front End Web Developer</p>
+            <h1>Hi, I'm <span>James Christopher Misa</span><br>From Davao City</h1>
+        </div>
+    </div>
+</div>
+<!-- ---------------about--------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/background4.jpg">
+            </div>
+        <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I’m James Christopher Misa, a first-year college student pursuing a Bachelor of Science in Information Technology (BSIT) after completing the ABM strand in senior high school. My passion for technology and its endless possibilities drives me to explore the world of IT and its applications in business.
+
+                    I love problem-solving and enjoy diving into programming languages, databases, and the latest tech trends. I believe that combining my knowledge of business and IT will equip me to contribute to innovative solutions in the tech industry.
+                    
+                    Outside of my studies, I’m interested in  gaming, coding, etc. I’m always eager to learn and collaborate with others, whether through group projects or online forums.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('College')">UNIVERSITY OF MINDANAO</p>
+                    <p class="tab-links" onclick="opentab('LANHS')">SHS & JHS</p>
+                    <p class="tab-links" onclick="opentab('education')">ELEMENTARY</p>
+                </div>
+                <div class="tab-contents active-tab" id="College">
+                    <ul>
+                        <li><span>(BSIT)</span><br>First year</li>
+                        <li><span></span><br>Currently pursuing Bachelor of Science in Information Technology (BSIT)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="LANHS">
+                    <ul>
+                        <li><span>2023-2024</span><br>Studied Accountancy, Business and Management (ABM)</li>
+                        <li><span>2023-2024</span><br>Assembled and repaired computer systems, ensuring functionality.</li>
+                        <li><span>2023-2024</span><br>Graduated with honors</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span></span><br>I studied at Sta. Ana Elementary School.</li>
+                        <li><span></span><br>Graduated with honors</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services------------------>
+<div id="experiences">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Lua & C# Dev</h2>
+                <p> Unlock the full potential of your projects with my specialized Lua and C# development services. With a strong background in both languages, I offer tailored solutions that seamlessly integrate scripting and application development.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>Computer Repair and Maintenance Services</h2>
+                <p>Students could offer computer repair and maintenance services to their schoolmates or local community, providing troubleshooting, hardware upgrades, and software installations.
+
+
+                </p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Network Setup and Configuration Services</h2>
+                <p>Students could offer services related to setting up and configuring networks for small businesses or community centers, including Wi-Fi installation, network security setup, and troubleshooting network issues.</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------portfolio-------------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/lanhs.jpg">
+                <div class="layer">
+                    <h3>LANHS | STEM WEBSITE</h3>
+                    <p>"Crafting a website to document my high school experiences, from navigating friendships to conquering academic challenges,
+                         has been a journey of self-discovery and growth."
+                        </p>
+                    <a href="https://benevolent-stardust-cf7fcc.netlify.app/home"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Webp.jpg">
+                <div class="layer">
+                <h3>Roblox Parkour Obby Game</h3>
+                    <p>"I developed Escape Papa Pizza's Pizzeria! Parkour Obby, 
+                        an engaging Roblox experience designed to challenge players in a competitive obstacle course."</p>
+                    <a href="https://www.roblox.com/games/10340878024/Escape-Papa-Pizzas-Pizzeria-Parkour-Obby"><i class="fas fa-external-link-alt"></i></a>
+             </div>
+            </div>
+            <div class="work">
+                <img src="images/work 3.png">
+                <div class="layer">
+                <h3>PRACTICAL RESEARCH | GAME WEBSITE</h3>
+                    <p>"Utilizing a digital platform, my website serves as a curated repository, encapsulating the myriad experiences and 
+                        profound insights gleaned throughout my tenure in secondary education"</p>
+                    <a href="https://webbasedgame.netlify.app/"><i class="fas fa-external-link-alt"></i></a> 
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Back To Top</a>
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>misajames31@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>09764060079</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jtoophe"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jeyymss_/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@wasajordi"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <a href="images/james.pdf" download class="btn btn2"> Download Resume</a>
+        </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>All rights reserved © James Christopher Misa.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxKye6Jq8TsFw91XXu8xk-uucjX0kFF30qwt15zgQxh4fOq1VYzXTBYtTx-49PF7lV9/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
